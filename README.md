@@ -2,6 +2,16 @@
 
 The ZendeskRefresh Safari extension's sole purpose is to refresh the Views list in a 60 second interval. It is very much inspired by its [Chrome counterpart](https://github.com/brandonstubbs93/ZendeskRefresh).
 
+# Changelog
+
+## 1.1
+
+* Minimize load on Zendesk systems by disabling timer when document is not visible
+
+## 1.0
+
+Initial release
+
 # Licence
 
 Copyright (c) 2012-2013 Tonni Aagesen
