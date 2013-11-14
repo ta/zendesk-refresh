@@ -4,11 +4,15 @@ The ZendeskRefresh Safari extension's sole purpose is to refresh the Views list 
 
 # Changelog
 
-## 1.1
+### 1.2
+
+* Don't refresh apps
+
+### 1.1
 
 * Minimize load on Zendesk systems by disabling timer when document is not visible
 
-## 1.0
+### 1.0
 
 Initial release
 

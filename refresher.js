@@ -5,7 +5,7 @@ $(document).ready(function() {
     var zendeskRefreshTimerId = window.setInterval(zendeskRefreshTimerMethod, 60 * 1000);
 
     function zendeskRefreshTimerMethod() {
-      $('.icon-refresh').parent().click();
+      $('.icon-refresh').parent().not('.reload_apps').click();
       console.log("Zendesk Refresh: Refresh triggered");
     }
 
